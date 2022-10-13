@@ -12,6 +12,8 @@ body {
   display: contents;
   text-align: center;
 
+  max-width: 38.2rem;
+
 }
 
 header {
@@ -20,6 +22,7 @@ header {
 
 header img {
   margin-top: 3.2rem;
+  
 }
 
 header h1 {
@@ -64,6 +67,11 @@ p {
 
 }
 
+.card img { /*essa configuração fez com a imagem aumentasse e diminuísse de acordo com a página*/
+  width: 100%;
+  height: auto;
+}
+
 .card span {
   font-family: 'Staatliches';
   font-weight: 400;
@@ -76,8 +84,10 @@ p {
   position: absolute;
   top: 1.6rem;
   right: 1.6rem;
-  width: 12.2rem;
+  width: 11.2rem;
+
+  align-items: center;
 
   background: #FEEAFA;
-  border-radius: 20px;
+  border-radius: 2.0rem;
   }
