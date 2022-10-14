@@ -8,20 +8,20 @@
   font-size: 62.5%;
 }
 
-body {
-  display: contents;
-  text-align: center;
-
+.page {
   max-width: 38.2rem;
-
+  margin: 0 auto;
 }
 
 header {
   background: #8E9AAF;
+  width: 100%;
+  height: auto;
 }
 
 header img {
   margin-top: 3.2rem;
+
   
 }
 
@@ -86,7 +86,7 @@ p {
   right: 1.6rem;
   width: 11.2rem;
 
-  align-items: center;
+  text-align: center;
 
   background: #FEEAFA;
   border-radius: 2.0rem;
